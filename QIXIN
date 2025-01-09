@@ -162,7 +162,7 @@ http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account url script-response-body 
 ^https?:\/\/sjapp\.o3aqqc\.work\/(home\/message\/get|user\/getUserActivity|activityDialog\/getActivityDialogList|banner\/list2\?location=0|game\/programGameList) url reject-200
 
 # 阿里云盘 解锁画质 *.aliyundrive.com
-^https?:\/\/(api|member)\.aliyundrive\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js
+#^https?:\/\/(api|member)\.aliyundrive\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js
 
 
 #  cokemv.me, *.pornhub.com, www.lezhutv.com, www.bimi*.net, 18comic.org, www.o8tv.com, 555dy.vip,www.5*.com,www.5*.cc, gimytv.app, www.tkys.tv, www.qianoo.cn, *.zhenbuka*.*, www.libvio.me
